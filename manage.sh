@@ -64,7 +64,7 @@ mkdir -p ${store_dir_path}/
 
 
 # Getting files list
-./get_figma_files_list.py 2>&1 | tee ${get_list_log_name}
+python3 ./get_figma_files_list.py 2>&1 | tee ${get_list_log_name}
 
 
 # Downloading files
